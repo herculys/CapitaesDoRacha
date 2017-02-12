@@ -3,7 +3,7 @@ package capitaesdoracha;
 public class Time 
 {
     private String Nome;
-
+    
     public String getNome() {
         return Nome;
     }
