@@ -98,7 +98,10 @@ public class CapitaesDoRacha
     {
         System.out.println("##### Escolhendo os Capitães ######");
         EntradasZeroOuUm();
+        
         menu.MenuImparOuPar();
+        
+        
         EscolherImparOuPar();
     }
 
