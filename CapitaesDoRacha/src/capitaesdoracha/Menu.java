@@ -9,6 +9,7 @@ public class Menu
         System.out.println("1 - Adicionar Jogadores");
         System.out.println("2 - Adicionar Nome aos Times");
         System.out.println("3 - Jogos");
+        System.out.println("4 - Sair");
         System.out.println("===================================");
         System.out.println();
         System.out.println("Digite sua escolha: ");
