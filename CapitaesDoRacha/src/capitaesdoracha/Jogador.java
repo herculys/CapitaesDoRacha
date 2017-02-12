@@ -1,6 +1,6 @@
 package capitaesdoracha;
 
-public class Jogador 
+public class Jogador implements Comparable<Jogador>
 {
     private String Nome;
     private Time Time;
@@ -38,6 +38,16 @@ public class Jogador
 
     public void setCategoria(ImparOuPar _categoria) {
         this.Categoria = _categoria;
+    }
+
+    @Override
+    public int compareTo(Jogador o) {
+        if(o.Escolha > this.Escolha)
+            return -1;
+        else if(o.Escolha == this.Escolha)
+            return 0;
+        else
+            return 1;     
     }
     
 }
