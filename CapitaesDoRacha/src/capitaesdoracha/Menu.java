@@ -24,7 +24,6 @@ public class Menu
         System.out.println("2 - Par");
         System.out.println("3 - Voltar");
         System.out.println("===================================");
-        System.out.println();
-        System.out.println("Digite sua escolha: ");  
+        System.out.println();  
     }
 }
