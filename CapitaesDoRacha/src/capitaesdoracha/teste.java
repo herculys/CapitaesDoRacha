@@ -14,12 +14,12 @@ public class teste
         
         jogador1.setCategoria(ImparOuPar.IMPAR);
         jogador1.setNome("Thiago");
-        jogador1.setEscolha(0);
+        jogador1.setEscolha(1);
         jogador2.setCategoria(ImparOuPar.IMPAR);
         jogador2.setNome("Filipe");
         jogador2.setEscolha(1);
         jogador3.setNome("João");
-        jogador3.setEscolha(0);
+        jogador3.setEscolha(1);
         
         Jogador ganhador = jogos.ZeroOuUm(jogador1, jogador2, jogador3);
         
