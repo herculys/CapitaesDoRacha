@@ -22,7 +22,6 @@ public class Menu
         System.out.println("###### Escolha Impar Ou Par #######");
         System.out.println("1 - Ímpar");
         System.out.println("2 - Par");
-        System.out.println("3 - Voltar");
         System.out.println("===================================");
         System.out.println();  
     }
