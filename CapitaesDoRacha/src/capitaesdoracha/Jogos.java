@@ -2,24 +2,22 @@ package capitaesdoracha;
 
 import java.util.Arrays;
 
-public class Jogos 
+public class Jogos
 {
     public Jogador ZeroOuUm(Jogador _jogador1, Jogador _jogador2, Jogador _jogador3)
     {
-        int[] entradas = {_jogador1.getEscolha(), _jogador2.getEscolha(), _jogador3.getEscolha()};
-        Arrays.sort(entradas);
+        Jogador[] jogadores = {_jogador1, _jogador2, _jogador3};
+        Arrays.sort(jogadores, new JogadorComparator());
         
-        if(entradas[0] == entradas[1])
+        if(jogadores[0].getEscolha() == jogadores[1].getEscolha())
         {
-            if(entradas[0] != entradas[1])
+            if(jogadores[0].getEscolha() == jogadores[2].getEscolha())
                 return null;
             else
-                return _jogador2;
+                return jogadores[2];
         }
-        else if(entradas[1] == entradas[2])
-            return _jogador1;
         else
-            return _jogador2;               
+            return jogadores[0];
     }
     
     public Jogador ImparOuPar(Jogador _jogador1, Jogador _jogador2)
