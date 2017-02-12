@@ -11,10 +11,10 @@ public class Jogos
         
         if(entradas[0] == entradas[1])
         {
-            if(entradas[2] != entradas[1])
+            if(entradas[0] != entradas[1])
                 return null;
             else
-                return _jogador3;
+                return _jogador2;
         }
         else if(entradas[1] == entradas[2])
             return _jogador1;
