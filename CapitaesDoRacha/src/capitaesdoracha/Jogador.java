@@ -4,6 +4,8 @@ public class Jogador
 {
     private String Nome;
     private Time Time;
+    private int Escolha;
+    private ImparOuPar Categoria;
 
     public String getNome() {
         return Nome;
@@ -20,6 +22,22 @@ public class Jogador
 
     public void setTime(Time _time) {
         this.Time = _time;
+    }
+
+    public int getEscolha() {
+        return Escolha;
+    }
+
+    public void setEscolha(int _escolha) {
+        this.Escolha = _escolha;
+    }
+
+    public ImparOuPar getCategoria() {
+        return Categoria;
+    }
+
+    public void setCategoria(ImparOuPar _categoria) {
+        this.Categoria = _categoria;
     }
     
 }
