@@ -10,7 +10,8 @@ public class Menu
         System.out.println("2 - Adicionar Nome aos Times");
         System.out.println("3 - Jogos");
         System.out.println("===================================");
-        
+        System.out.println();
+        System.out.println("Digite sua escolha: ");
     }
     
     public void MenuJogos()
@@ -21,5 +22,7 @@ public class Menu
         System.out.println("2 - Impar ou Par");
         System.out.println("3 - Voltar");
         System.out.println("===================================");
+        System.out.println();
+        System.out.println("Digite sua escolha: ");
     }
 }
